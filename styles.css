@@ -1,7 +1,7 @@
 body{
     font-family: Montserrat,sans-serif;
     color: #b60000;
-    margin: 0 20em;
+    margin: 0 10em;
 }
 
 .wrapper {
@@ -10,33 +10,33 @@ body{
     flex-direction: column;
     border: 1px solid lightgrey;
     box-shadow: 2px 3px 10px grey;
+    height: auto;
 }
 
 .nav-content{
-    flex-grow: 1;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: .5%;
+    padding-bottom: 2px;
     border-bottom: 3px solid #b60000;
-    margin-bottom: 10px;
-    height: 107px;
+    margin-bottom: 9px;
     box-sizing: border-box;
-    
+    text-align: right;
 }
 
 .nav-logo img {
-    width: 135px;
-    padding-left: 2em;
-}
-
-.nav-content .navbar-1{
-    padding: 1em;
-    font-weight: 500;
+    width: 170px;
+    padding: 1em 2em;
 }
 
 .nav-content .navbar-2 li {
     padding: 0 1em;
-    
+    font-size: 35px;
+}
+.nav-content .navbar-1 li {
+    font-size: 20px;
+    padding: 1em 2em
 }
 
 li{
@@ -65,8 +65,7 @@ main {
 main img{
     width: 32%;
     height: auto;
-    margin: .5%;
-    box-shadow: 2px 2px lightgrey
+    margin: .5%;  
 }
 
 footer {
@@ -74,10 +73,13 @@ footer {
 }
 
 a img {
+    width: 2.5%;
     border: 5px solid #b60000;
     border-radius: 50%;
     padding: 1em;
     margin: .5em;
 }
 
-
+li img{
+    width: 18px
+}
